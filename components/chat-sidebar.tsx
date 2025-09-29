@@ -401,13 +401,13 @@ export function ChatSidebar() {
                                     <Settings className="mr-2 h-4 w-4 hover:text-sidebar-accent" />
                                     MCP Settings
                                 </DropdownMenuItem>
-                                {/* <DropdownMenuItem onSelect={(e) => {
+                                <DropdownMenuItem onSelect={(e) => {
                                     e.preventDefault();
                                     setApiKeySettingsOpen(true);
                                 }}>
                                     <Key className="mr-2 h-4 w-4 hover:text-sidebar-accent" />
                                     API Keys
-                                </DropdownMenuItem> */}
+                                </DropdownMenuItem>
                                 <DropdownMenuItem onSelect={(e) => {
                                     e.preventDefault();
                                     window.open("https://github.com/idosal/scira-mcp-ui-chat", "_blank");
